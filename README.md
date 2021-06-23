@@ -2,7 +2,7 @@
 
 Le dataset
 
-Le jeu de données Health Animal Bites (Santé - Morsures d'animaux) provient des rapports aux forces de l'ordre. L'objectif de l'ensemble de données est de prédire de manière diagnostique quels animaux sont les plus susceptibles de mordre les humains, quels sont les facteurs les plus fortement associés à une identification positive de la rage, certaines races de chiens sont-elles plus susceptibles de mordre ?. 
+Le dataset Health Animal Bites (Santé - Morsures d'animaux) provient du recensement des plaintes des forces de l'odre suite à des morsures d'animaux. L'objectif de l'ensemble de données est de prédire de manière diagnostique quels animaux sont les plus susceptibles de mordre les humains, quels sont les facteurs les plus fortement associés à une identification positive de la rage, et si certaines races de chiens sont plus susceptibles de mordre que d'autre?. 
 
 Attributs des incidents de morsure d'animaux signalés et étudiés par le département de la santé publique et du bien-être de Louisville Metro. Les données personnelles/identifiantes ont été supprimées.
 
@@ -10,15 +10,15 @@ Ci-dessous, le nom des colonnes :
 
 columns={
     bite_date : La date à laquelle la morsure s'est produite
-    SpeciesIDDesc : L'espèce d'animal qui a mordu
+    SpeciesIDDesc : Espèce animale
     BreedIDDesc : Race (si connue)
     GenderIDDesc : Sexe (de l'animal)
-    couleur : couleur de l'animal
+    couleur : Couleur de l'animal
     vaccination_yrs : combien d'années se sont écoulées depuis la dernière vaccination
-    date_vaccination : la date de la dernière vaccination
-    victim_zip : le code postal de la victime
+    date_vaccination : date de la dernière vaccination
+    victim_zip : code postal de la victime
     AdvIssuedYNDesc : si un avis a été émis
-    WhereBittenIDDesc : Où sur le corps la victime a été mordue
+    WhereBittenIDDesc : sur quelle partie du corps se trouve la morsure
     quarantaine_date : si l'animal a été mis en quarantaine
     DispositionIDDesc : si l'animal est sorti de quarantaine
     headsentdate : la date à laquelle la tête de l'animal a été envoyée au laboratoire
@@ -33,5 +33,5 @@ columns={
     adopted : Si l'animal était adopté ou pas
 }
 
-- étudier la probabilité que le fait que l'animal ait été adopté ou non influence les morsures
+- étudier la probabilité que l'animal ait été adopté ou non influence les morsures
 
